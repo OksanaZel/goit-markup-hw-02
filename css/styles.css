@@ -1,6 +1,199 @@
-/*Primary font-family - Roboto*/
-/*Secondary font-family - Raleway*/
-/*Primary text-color - #212121*/
-/*Secondary text-color - #757575*/
-/*Logo Studio-color - #000000*/
-/*Accent color - #2196F3*/
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+.current {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/*======= COMPONENTS =======*/
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/*======= END COMPONENTS =======*/
+
+/*======= LOGO =======*/
+.logo {
+  color: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-light-theme {
+  color: #000000;
+}
+
+/*.logo-dark-theme {
+  color: #ffffff;*/
+
+.logo-color {
+  color: var(--accent-color);
+}
+/*======= END LOGO =======*/
+
+/*======= HEADER =======*/
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+/*======= END HEADER =======*/
+
+/*======= HERO =======*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
+}
+
+/*======= END HERO =======*/
+
+/*======= AVANTAGES =======*/
+.avantages-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+
+.avantages-list-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--secondary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*======= END AVANTAGES =======*/
+
+/*======= WORK =======*/
+
+/*======= END WORK =======*/
+
+/*======= TEAM =======*/
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+}
+
+.team-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/*======= END TEAM =======*/
+
+/*======= FOOTER =======*/
+
+.address-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  /* color: rgba(255, 255, 255, 0.6);*/
+}
+.address-list-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  /*color: #ffffff;*/
+}
+/*======= END FOOTER =======*/
+
+/*==========PORTFOPLIO=========*/
+.radio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--primary-text-color);
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary-text-color);
+}
+/*========== END PORTFOPLIO=========*/

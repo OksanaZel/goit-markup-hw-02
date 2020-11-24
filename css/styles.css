@@ -61,8 +61,9 @@ li {
   color: #000000;
 }
 
-/*.logo-dark-theme {
-  color: #ffffff;*/
+.logo-dark-theme {
+  color: #ffffff;
+}
 
 .logo-accent {
   color: var(--accent-color);
@@ -163,13 +164,17 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-list-map {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /*color: #ffffff;*/
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
 }
 /*======= END FOOTER =======*/
 

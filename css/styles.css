@@ -11,9 +11,6 @@ body {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
 }
-.current {
-  color: var(--accent-color);
-}
 
 .address {
   font-style: normal;
@@ -23,13 +20,10 @@ a {
   text-decoration: none;
 }
 
-.navigation-list-link:visited {
-  color: var(--primary-text-color);
-}
-
 li {
   list-style: none;
 }
+
 /*======= COMPONENTS =======*/
 .title {
   font-weight: 700;
@@ -80,6 +74,11 @@ li {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .navigation-list-link:hover,
@@ -97,9 +96,10 @@ li {
   color: var(--secondary-text-color);
 }
 
-.current {
+/*.current {
   color: var(--accent-color);
-}
+}*/
+
 /*======= END HEADER =======*/
 
 /*======= HERO =======*/

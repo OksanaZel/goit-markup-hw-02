@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+.navigation-list-link:visited {
+  color: var(--primary-text-color);
+}
+
 li {
   list-style: none;
 }
